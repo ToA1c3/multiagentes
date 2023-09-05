@@ -1,0 +1,145 @@
+﻿Movilidad urbana
+
+
+
+
+Modelación de sistemas multiagentes con gráficas computacionales 
+(Gpo 102)
+
+
+
+
+Profesores: 
+Raul Ramirez Velarde 
+Edgar Covantes Osuna
+
+
+Integrantes del equipo:
+Jorge Ramos-A00833914
+Aldo Barraza - A00833993
+Isaac Enriquez - A00829207
+Andrea San Martin Vital - A00833676
+
+
+1 de septiembre de 2023
+________________
+
+
+Movilidad urbana
+Conformación del Equipo
+
+
+Jorge Ramos: Fortalezas: trabajo en equipo, liderazgo, comunicación
+                   Debilidades: tiempo de trabajo, organización orden
+Expectativas: Mis expectativas están en aprender más sobre la simulación y la                 integración con unity. 
+
+
+Aldo Barraza: Fortalezas: Trabajo en equipo, unity, organización, ideas
+                        Debilidades: Tiempos, trabajo en Zoom, no se mucho de Python
+Expectativas: pulir mi habilidad en unity y aprender a programar agentes
+
+
+Andrea San Martin: Fortalezas: Adaptabilidad, organización, trabajo en equipo, dispuesta a 
+                        aprender, mentalidad abierta
+                        Debilidades:tiempo, falta de experiencia con las herramientas
+                        Expectativas: Aprender más de cómo utilizar las herramientas de la clase.
+
+
+Isaac Enriquez: Fortalezas: Aprendo rápido, autodidacta
+                  Debilidades: Me distraigo fácilmente, vivo lejos
+                  Expectativas: Aprender más sobre Python y agentes
+
+
+Propósitos y compromisos de equipo: 
+Como equipo tenemos de propósito colaborar, trabajar, y avanzar de manera unida para desarrollar la mejor versión posible de la solución del reto planteado. Estamos en búsqueda de una propuesta que de una solución real y factible al problema planteado utilizando las herramientas que vamos a estar aprendiendo durante el proceso junto con nuestras fortalezas y conocimientos para llegar a un resultado óptimo. 
+Nuestro compromiso es juntarnos semanalmente para avanzar y pulir nuestro proyecto además de utilizar la mayor cantidad de recursos junto con nuestras habilidades para poder obtener los resultados esperados. Nos comprometemos a un trabajo continuo y oportuno además de mucho esfuerzo para cumplir con los propósitos y expectativas. Esperamos tener mayor comprensión de cómo plantear soluciones a problemas de nuestra vida diaria y poder modelarlos de forma computacional para empezar a integrar nuestros conocimientos al día a día de las personas y dar soluciones a problemáticas actuales como la planteada en este proyecto.
+
+
+Herramienta de trabajo colaborativo
+La herramienta de colaboración que vamos a estar utilizando es un repositorio de GitHub. El enlace a dicho repositorio es el siguiente: https://github.com/andysmv1801/multiagentes.git  
+
+
+
+
+
+
+Propuesta del Reto
+
+
+El reto consiste en proponer una solución al problema de movilidad urbana en México, mediante un enfoque que reduzca la congestión vehicular al simular de manera gráfica el tráfico esto con el uso de multiagentes. Se trabaja simulando un cruce con los autos viniendo en todas las direcciones y buscando la solución más óptima para que no exista embotellamientos.
+
+
+Nuestra propuesta implica el uso de vías reversibles, ya sea apoyados por un sistema automatizado de semáforos o un vehículo que cambie la posición del muro de contención, como se usa en la ciudad de San Francisco en el puente Golden Gate. La idea sería tener carriles de un número impar como 3 o 5, de forma que cuando exista mayor flujo de tráfico a ciertas horas el carril central se pueda usar de forma reversible para aumentar el número de vehículos que pasa por la intersección. 
+
+
+Dicho sistema usaría multiagentes para determinar la cantidad de vehículos en dicha intersección para juzgar que carriles cambiar y hacer más ligera la carga vial de ésta. El objetivo principal es reducir la congestión al hacer dicho cambio dinámico del carril central en diferentes momentos del día ayudados de sensores de tráfico para recopilar información  de la demanda vial en diferentes puntos del día.
+
+
+Los agentes involucrados 
+
+
+Nuestro trabajo tendrá múltiples agentes. Primero irán los carros que se comportaron de manera especial. La calle estará conformada por el grid del modelo que nos permitirá saber la posición de los carros. Está también el agente semáforo que controlará el cruce. Por último, está el agente encargado de controlar el cambio dinámico del carril el cual serán las divisiones de las calles que medirán el flujo de los carros para poder identificar el cambio y al llegar un momento determinado en donde exista mucho tráfico se activaran para cambiar el flujo vehicular y evitar el tráfico.
+
+
+Diagrama de clase  
+
+
+
+
+Diagrama de protocolos de interacción
+  
+
+Plan de trabajo
+
+
+Durante el proceso de desarrollo del reto, vamos a estar trabajando en diferentes etapas y realizando distintas actividades. Como equipo nos queda las siguientes actividades por hacer, tomando en consideración que ya estamos en la segunda semana de trabajo quedaría así:
+
+
+Etapa 1.1: Modelación de agentes, esta actividad deberá realizarse hasta la semana 3.
+Etapa 1.2: Modelación gráfica en tres dimensiones, esta actividad tendrá como límite el fin de semana 3 como máximo inicio de semana 4.
+Etapa 2.1: Interacción entre agentes, entre semana 4 y fin de semana 5.
+Etapa 2.2: Animación gráfica en tres dimensiones, semana 5.
+Las actividades para la primera revisión serian:
+Actividad
+	Responsable
+	Tiempo
+	Investigar cómo funciona el sistema urbano de tráfico. 
+	Aldo Barraza
+	3 días
+	Buscar otras modelaciones o trabajos sobre la modelación de ambientes urbanos.
+	Andrea San Martin
+	3 días
+	Investigar cómo funcionan los grupos de automóviles y como suele manejar las personas.
+	Jorge Ramos, intervalo de esfuerzo de escalada empieza sencillo y termina más fuerte
+	3 días
+	Modelar o empezar a modular los agentes.
+	Isaac Enriquez
+	3 días 
+	Definir la lógica y estrategia que se va a utilizar para realizar el modelo
+	Jorge Ramos
+	3 días
+	Definir las funciones generales de cada agente del modelo
+	Andrea San Martin
+	2 días
+	Modelar algunos de los agentes en unity 
+	Isaac Enriquez
+	5 días
+	
+
+	
+
+	
+
+	
+
+Avance 2: 
+Modelen el sistema multiagentes necesario para simular tu proyecto reto. Detalla cuáles serían los agentes involucrados, qué tipo de agente sería y forma de interacción entre ellos. 
+El modelo se va a implementar en una intersección de cuatro vías controlada por un semáforo, en donde se medirá el flujo del tráfico para poder incrementar una fila de una vía específica para aumentar la movilidad hacia la dirección más congestionada. En esta intersección no está permitido dar vuelta a la izquierda por el flujo del tránsito dictado por el semáforo, pero si se permite la vuelta a la derecha continua, solo cuando el semáforo está en verde y que en esta intersección no se permite la vuelta continua a la derecha en rojo para evitar accidentes 
+Agentes involucrados: 
+* Carros: Es un agente importante que marca el flujo del tráfico dependiendo el número de agentes que haya y tiene una dirección, interactúa con el modelo, la intersección en donde se encuentre, el semáforo que es el que rige su movimiento.Estos pueden ser categorizados como agentes reactivos por la reacción e interacción los semáforos y agentes móviles ya que tienen casi completa libertad de movimiento por las zonas delimitadas.
+* Semáforo: Este agente es el encargado de dictar el comportamiento de los carros en la intersección ya que es el que permite el flujo hacia una dirección. Este agente en nuestro sistema es del tipo reactivo ya que tomaría deciciones dependiendo de la cantidad de carros que son tomados como estímulos.Su interacción con los autos es directa de forma que esta dictamina si estos pueden estar en circulación o en pare.
+* Divisiones: Estas divisiones son las que permitirán que, dependiendo del tráfico, se puedan incrementar las filas hacia una dirección específica para poder aumentar el flujo y disminuir el tráfico. Este agente interactúa con los carros ya que dependiendo de la cantidad que haya es si cambia su posición.Es un agente independiente toma decisiones de forma autónoma ya que toma de medición a los autos mas no como estímulo y dependiendo de esto los usa para tomar la mejor decisión. Interacción con los autos ya que regula el flujo con el que estos fluyen en los diferentes sentidos
+Lógica del programa
+Nuestro diseño se basa en buscar el menor tiempo de espera y el mejor flujo, es decir buscamos que los autos tengan que esperar menos en los semáforos y que puedan fluir en la dirección que más lo necesita. Por esto tomando los carros como nuestro agente principal este entra por cualquiera de las calles que llevan a la intersección en la intersección existen  sensores los cuales miden tiempo y cuentan la cantidad de autos estos se comunican con los semáforos para conseguir un flujo armónico de carros con un mínimo tiempo de espera. El diferenciador cambia la cantidad de carriles a favor del mayor flujo es decir si van más de norte a sur que de sur a norte de norte a sur habrán 3 carriles en lugar de dos. Esto a favor del tiempo. Buscamos optimizar lo más posible sin complicar los espacios. 
+Referencias:
+O’Mara, K. (2017) The Mesmerizing Machine That Makes Your Golden Gate Bridge Drive Less Terrifying. KQED. Disponible en: https://www.kqed.org/news/11594879/the-mesmerizing-machine-that-makes-driving-across-the-golden-gate-bridge-less-terrifying
