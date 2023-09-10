@@ -5,3 +5,4 @@
 ### Liga REVISION 3: https://docs.google.com/document/d/1HzLneiwcntn-SCJ5SkWvfAKhafQug3CfbAtZuJzuWDw/edit?usp=sharing
 ### Para la revision 3, se agregaron los avances de codigo y unity:
 ### Liga al avance del proyecto en unity: https://drive.google.com/file/d/1afA06pj2fYXBnkRz0aN806625WlAxR8o/view?usp=sharing
+### Liga para el ultimo modelo de unity:  https://drive.google.com/file/d/1obTGidYEQYje4RdcBYpiSNpojIduMu1N/view?usp=sharing
